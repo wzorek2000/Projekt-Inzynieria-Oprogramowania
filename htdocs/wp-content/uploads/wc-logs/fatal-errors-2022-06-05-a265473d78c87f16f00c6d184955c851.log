@@ -1,0 +1,30 @@
+2022-06-05T16:10:59+00:00 CRITICAL Uncaught Error: Class 'Elementor\Plugin' not found in /home/vol13_2/epizy.com/epiz_31861078/htdocs/wp-content/plugins/essential-addons-for-elementor-lite/includes/Traits/Core.php:305
+Stack trace:
+#0 /home/vol13_2/epizy.com/epiz_31861078/htdocs/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Bootstrap->save_global_values_trashed_post(137)
+#1 /home/vol13_2/epizy.com/epiz_31861078/htdocs/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /home/vol13_2/epizy.com/epiz_31861078/htdocs/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/vol13_2/epizy.com/epiz_31861078/htdocs/wp-includes/class-wp-customize-manager.php(3117): do_action('trashed_post', 137)
+#4 /home/vol13_2/epizy.com/epiz_31861078/htdocs/wp-includes/theme.php(3567): WP_Customize_Manager->trash_changeset_post(Object(WP_Post))
+#5 /home/vol13_2/epizy.com/epiz_31861078/htdocs/wp-includes/class-wp-hook.php(307): _wp_customize_publish_changeset('publish', 'auto-draft', Object(WP_Post))
+#6 /home/vol13_2 w /home/vol13_2/epizy.com/epiz_31861078/htdocs/wp-content/plugins/essential-addons-for-elementor-lite/includes/Traits/Core.php w linii 305
+
+2022-06-05T16:13:01+00:00 CRITICAL Uncaught Error: Class 'Elementor\Plugin' not found in /home/vol13_2/epizy.com/epiz_31861078/htdocs/wp-content/plugins/essential-addons-for-elementor-lite/includes/Traits/Core.php:305
+Stack trace:
+#0 /home/vol13_2/epizy.com/epiz_31861078/htdocs/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Bootstrap->save_global_values_trashed_post(139)
+#1 /home/vol13_2/epizy.com/epiz_31861078/htdocs/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /home/vol13_2/epizy.com/epiz_31861078/htdocs/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/vol13_2/epizy.com/epiz_31861078/htdocs/wp-includes/class-wp-customize-manager.php(3117): do_action('trashed_post', 139)
+#4 /home/vol13_2/epizy.com/epiz_31861078/htdocs/wp-includes/theme.php(3567): WP_Customize_Manager->trash_changeset_post(Object(WP_Post))
+#5 /home/vol13_2/epizy.com/epiz_31861078/htdocs/wp-includes/class-wp-hook.php(307): _wp_customize_publish_changeset('publish', 'auto-draft', Object(WP_Post))
+#6 /home/vol13_2 w /home/vol13_2/epizy.com/epiz_31861078/htdocs/wp-content/plugins/essential-addons-for-elementor-lite/includes/Traits/Core.php w linii 305
+
+2022-06-05T16:18:03+00:00 CRITICAL Uncaught Error: Class 'Elementor\Plugin' not found in /home/vol13_2/epizy.com/epiz_31861078/htdocs/wp-content/plugins/essential-addons-for-elementor-lite/includes/Traits/Core.php:305
+Stack trace:
+#0 /home/vol13_2/epizy.com/epiz_31861078/htdocs/wp-includes/class-wp-hook.php(307): Essential_Addons_Elementor\Classes\Bootstrap->save_global_values_trashed_post(13)
+#1 /home/vol13_2/epizy.com/epiz_31861078/htdocs/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /home/vol13_2/epizy.com/epiz_31861078/htdocs/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/vol13_2/epizy.com/epiz_31861078/htdocs/wp-includes/post.php(3592): do_action('trashed_post', 13)
+#4 /home/vol13_2/epizy.com/epiz_31861078/htdocs/wp-admin/post.php(260): wp_trash_post(13)
+#5 {main}
+  thrown w /home/vol13_2/epizy.com/epiz_31861078/htdocs/wp-content/plugins/essential-addons-for-elementor-lite/includes/Traits/Core.php w linii 305
+
